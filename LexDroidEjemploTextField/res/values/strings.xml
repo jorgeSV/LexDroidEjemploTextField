@@ -4,5 +4,30 @@
     <string name="app_name">LexDroidEjemploTextView</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="hola_todos">Hola a todos</string>
+	<string name="este_es_correo">Este es un correo</string>
+	<string name="escribe_numero">Escribe un número</string>
+	<string name="escribe_telefono">Escribe un teléfono</string>
+    <string name="escribe_pass">Escribe un password</string>
+    <string name="escribe_multilinea">Escribe un texto con multilinea</string>
+    <string name="escribe_mes">Escribe un mes</string>
+    <string name="introduce_mes">Introduce un mes</string>
+    <string name="escribe_nombre">Escribe un nombre</string>
+    <string name="introduce_nombre">Introduce un nombre</string>
+    
+    <string-array name="nombres">
+        
+        <item >Jose</item>
+        <item >Maria</item>
+        <item >Alvaro Martínez</item>
+        <item >Alvaro López</item>
+        <item >Luis</item>
+        <item >Carlos</item>
+        <item >Santi</item>
+        <item >Jorge</item>
+        <item >David</item>
+        <item >Marcos</item>
+        
+    </string-array>
+    
 </resources>

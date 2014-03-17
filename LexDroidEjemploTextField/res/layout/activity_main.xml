@@ -1,11 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context=".MainActivity" >
 
     <TextView
@@ -13,4 +10,66 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-</RelativeLayout>
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:hint="@string/hola_todos"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/este_es_correo"
+        android:inputType="textEmailSubject"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_numero"
+        android:inputType="number"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_telefono"
+        android:inputType="phone"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_pass"
+        android:inputType="textPassword"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_multilinea"
+        android:inputType="textMultiLine"
+        />
+    
+    <!-- android:completionThreshold: Carácter a partir del que entra el autocomplete -->
+    <AutoCompleteTextView 
+        android:id="@+id/AutoCompleteTV01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_mes"
+        android:completionHint="@string/introduce_mes"
+        android:completionThreshold="3" 
+        />
+    
+    <AutoCompleteTextView 
+        android:id="@+id/AutoCompleteTV02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_nombre"
+        android:completionHint="@string/introduce_nombre"
+        android:completionThreshold="2"
+        
+        />
+    
+</LinearLayout>
