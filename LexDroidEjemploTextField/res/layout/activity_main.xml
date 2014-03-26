@@ -69,7 +69,6 @@
         android:hint="@string/escribe_nombre"
         android:completionHint="@string/introduce_nombre"
         android:completionThreshold="2"
-        
         />
     
 </LinearLayout>
